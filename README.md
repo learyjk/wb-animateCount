@@ -21,25 +21,25 @@ https://wb-countup.webflow.io/
 
 3. Customize it!
 
-`duration` - Set animation duration in ms i.e. 5000 for 5 seconds. Default is 2000ms
-`reverse` - Set to `'true'` is you want your animation to count down instead of up.
-`count-down-to` - Set number count down should end on. Default is 0.
-`ease` - Set the easing, options are below:
+- `duration` - Set animation duration in ms i.e. 5000 for 5 seconds. Default is 2000ms
+- `reverse` - Set to `'true'` is you want your animation to count down instead of up.
+- `count-down-to` - Set number count down should end on. Default is 0.
+- `ease` - Set the easing, options are below:
 
 ## Easings
 
 Visualize at https://easings.net/
 
-`linear`
-`easeInQuad`
-`easeOutQuad`
-`easeInOutQuad`
-`easeInCubic`
-`easeOutCubic`
-`easeInOutCubic`
-`easeInQuart`
-`easeOutQuart`
-`easeInOutQuart`
-`easeInQuint`
-`easeOutQuint`
-`easeInOutQuint`
+- `linear`
+- `easeInQuad`
+- `easeOutQuad`
+- `easeInOutQuad`
+- `easeInCubic`
+- `easeOutCubic`
+- `easeInOutCubic`
+- `easeInQuart`
+- `easeOutQuart`
+- `easeInOutQuart`
+- `easeInQuint`
+- `easeOutQuint`
+- `easeInOutQuint`
