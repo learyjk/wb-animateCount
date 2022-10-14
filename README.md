@@ -12,9 +12,12 @@ https://wb-countup.webflow.io/
 
 ## Installation
 
-1. Add the script below to you before `</body>` tag.
+1. Add the script below before your `</body>` tag.
 
 2. Add the following attribute to a text block: `wb-data="aniamte-count"`
+
+![setup screen 1](/assets/setup-screen1.webp)
+![setup screen 2](/assets/setup-screen2.webp)
 
 3. Customize it!
 
