@@ -16,7 +16,7 @@ https://wb-countup.webflow.io/
 
 `<script src="https://cdn.jsdelivr.net/gh/learyjk/wb-animateCount@1/dist/wb-animateCount.min.js"></script>`
 
-2. Add the following attribute to a text block: `wb-data="aniamte-count"`
+2. Add the following attribute to a text block: `wb-data="animate-count"`
 
 ![setup screen 1](/assets/setup-screen1.webp)
 ![setup screen 2](/assets/setup-screen2.webp)
