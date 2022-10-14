@@ -14,6 +14,8 @@ https://wb-countup.webflow.io/
 
 1. Add the script below before your `</body>` tag.
 
+`<script src="https://cdn.jsdelivr.net/gh/learyjk/wb-animateCount@1/dist/wb-animateCount.min.js"></script>`
+
 2. Add the following attribute to a text block: `wb-data="aniamte-count"`
 
 ![setup screen 1](/assets/setup-screen1.webp)
