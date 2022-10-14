@@ -5,8 +5,7 @@ REQUIRED
 [wb-data="animate-count"]
 
 OPTIONAL
-threshold
-duration // 0.0 to 1.0
+duration // in ms
 ease
 reverse
   countDownTo
@@ -57,7 +56,8 @@ const countUp = (elementToAnimate) => {
   );
   const totalFrames = Math.round(duration / frameDuration);
   const easing =
-    elementToAnimate.getAttribute("ease") || EasingFunctions.easeOutQuart;
+    EasingFunctions[elementToAnimate.getAttribute("ease")] ||
+    EasingFunctions.easeOutQuart;
   const isCountDown = elementToAnimate.getAttribute("reverse") || false;
 
   let frame = 0;
